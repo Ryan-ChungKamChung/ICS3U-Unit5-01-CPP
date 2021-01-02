@@ -2,20 +2,20 @@
 //
 // Created by Ryan Chung Kam Chung
 // Created in December 2020
-// Program prints integers in the range of 1000 and 2000
+// Program converts celsius to fahrenheit
 
 #include <iostream>
 #include <string>
 
 
 void fahrenheit() {
-    // Function converts celcius fahrenheit
+    // Function converts celsius to fahrenheit
 
     std::string celsius_string;
     int celsius;
     double temperature_in_fahrenheit;
 
-    std::cout << "I convert celcius into farenheit!" << std::endl;
+    std::cout << "I convert celsius into fahrenheit!" << std::endl;
 
     while (true) {
         // Input
